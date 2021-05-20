@@ -1,0 +1,6 @@
+ROOT_CODE=/home-local/etylson/ws/sssgan_public/sssgan
+GT_PATH=/data-local/data1-hdd/etylson/INRIA/INRIA_256_128_background_filtered_without_kitsap/train/gt
+IMAGES_PATH=/data-local/data1-hdd/etylson/INRIA/INRIA_256_128_background_filtered_without_kitsap/train/images
+VAL_GT_PATH=/data-local/data1-hdd/etylson/INRIA/INRIA_256_128_background_filtered_without_kitsap/val/gt
+VAL_IMAGES_PATH=/data-local/data1-hdd/etylson/INRIA/INRIA_256_128_background_filtered_without_kitsap/val/images
+SEMANTIC_VECTOR=/data-local/data1-hdd/etylson/INRIA/global_descriptor_vec

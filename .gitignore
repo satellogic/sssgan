@@ -1,0 +1,14 @@
+checkpoints/
+results/
+.idea/
+*.tar.gz
+*.zip
+*.pkl
+*.pyc
+frechet_predictions/
+frechet/
+frechet_ds/
+test_ds/
+trainers/networks/class_dist_regularizer/weights
+trainers/networks/class_dist_regularizer/cfg
+vis/

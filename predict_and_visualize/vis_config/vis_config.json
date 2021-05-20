@@ -1,0 +1,25 @@
+[
+    {
+        "vis_name": "baseline",
+        "model_name": "baseline",
+        "version": "latest",
+        "script": "python test.py --name {} --dataset_mode custom --label_dir {} --image_dir {} --label_nc 2  --contain_dontcare_label --no_instance --gpu_ids 2 --batchSize 1",
+        "position": [1, 1]
+    },
+    {
+        "vis_name": "semantic", 
+        "model_name": "semantic", 
+        "version": "latest",
+        "script": "python test_satellite.py --name {} --dataset_mode satellite --label_dir {} --image_dir {} --global_descriptor_dir /datasets/INRIA/global_descriptor_vec --label_nc 2  --contain_dontcare_label --no_instance --gpu_ids 2 --batchSize 1 --preprocess_mode none --no_initial_structure --satellite_generator_mode global_area_vector",
+        "position": [1, 2]
+    },
+
+    {
+        "vis_name": "semantic+dense", 
+        "model_name": "semantic#dense", 
+        "version": "latest",
+        "script": "python test_satellite.py --name {} --dataset_mode satellite --label_dir {} --image_dir {} --global_descriptor_dir /datasets/INRIA/global_descriptor_vec --label_nc 2  --contain_dontcare_label --no_instance --gpu_ids 2 --batchSize 1 --preprocess_mode none --no_initial_structure --satellite_generator_mode global_area_vector --residual_mode",
+        "position": [1, 3]
+    }
+
+]

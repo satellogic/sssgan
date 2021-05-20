@@ -1,0 +1,11 @@
+scipy==1.2.0
+tensorflow==1.14
+tensorboard==1.14.0
+dominate>=2.3.1
+dill
+scikit-build
+scikit-image
+opencv-python
+pandas
+tqdm
+jupyter

@@ -1,0 +1,12 @@
+descartes
+osmnx==0.14.1
+folium
+geopandas==0.6.3
+jupyter
+pandas
+numpy
+matplotlib
+folium
+seaborn
+GDAL
+geocube
