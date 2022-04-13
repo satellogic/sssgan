@@ -104,7 +104,7 @@ The code is divided into two:
 
 ____
 
- <h1 align="center">Semantic global vector geneartion</h1>
+ <h1 align="center">Semantic global vector generation</h1>
 
 ### Install ###
 
